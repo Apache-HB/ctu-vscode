@@ -72,7 +72,7 @@
 		},
 		"keywords": {
 			"name": "keyword.control.cthulhu",
-			"match": "\\b(if|while|for|return)\\b"
+			"match": "\\b(if|else|as|while|for|return)\\b"
 		},
 		"digits": {
 			"patterns": [
