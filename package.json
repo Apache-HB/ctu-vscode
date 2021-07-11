@@ -4,6 +4,7 @@
     "description": "cthulhu language syntax highlighting",
     "version": "0.0.1",
     "preview": true,
+    "publisher": "ApacheHB",
     "repository": {
         "url": "https://github.com/apache-hb/ctu-vscode"
     },
