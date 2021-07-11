@@ -1,0 +1,30 @@
+{
+    "name": "cthulhu",
+    "displayName": "cthulhu",
+    "description": "cthulhu language syntax highlighting",
+    "version": "0.0.1",
+    "preview": true,
+    "repository": {
+        "url": "https://github.com/apache-hb/ctu-vscode"
+    },
+    "icon": "images/icon.jpg",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cthulhu",
+            "aliases": ["cthulhu", "ctu"],
+            "extensions": ["ct"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cthulhu",
+            "scopeName": "source.ctu",
+            "path": "./syntaxes/cthulhu.tmLanguage.json"
+        }]
+    }
+}
